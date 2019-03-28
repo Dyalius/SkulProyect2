@@ -9,6 +9,7 @@ namespace SkulProyect2.Models
 {
     public class Alumno
     {
+        [Key]
         public int Ciescolar { get; set; }
         [ForeignKey("Representante")]
         public int Cedularepresentante { get; set; }
